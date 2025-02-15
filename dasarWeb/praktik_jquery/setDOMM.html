@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="jquery-3.7.1.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#button1").click(function(){
+                    $("#test1").text("<b>Hello World</b>");
+                });
+                $("#button2").click(function(){
+                    $("#test2").html("<b>Hello World</b>");
+                });
+                $("#button3").click(function(){
+                    $("#test3").val("<b>Hello World</b>");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <p id="test1">This is the first paragraph</p>
+        <p id="test2">This is <b>another</b> paragraph</p>
+        <p>Your name : <input type="text" id="test3"></p>
+
+        <button id="button1">Get Text</button>
+        <button id="button2">Get HTML</button>
+        <button id="button3">Get Value</button>
+    </body>
+</html>

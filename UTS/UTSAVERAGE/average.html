@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rata-rata Nilai</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Form Rata-rata Nilai</h1>
+        <form id="averageForm" action="average.php" method="POST">
+            <label for="name">Nama Mahasiswa:</label>
+            <input type="text" name="name[]" placeholder="Nama 1" required>
+            <input type="number" name="score[]" placeholder="Nilai 1" required><br>
+
+            <input type="text" name="name[]" placeholder="Nama 2" required>
+            <input type="number" name="score[]" placeholder="Nilai 2" required><br>
+
+            <input type="text" name="name[]" placeholder="Nama 3" required>
+            <input type="number" name="score[]" placeholder="Nilai 3" required><br>
+
+            <button type="submit">Hitung Rata-rata</button>
+        </form>
+        <div id="result"></div>
+    </div>
+</body>
+</html>

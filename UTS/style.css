@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to right, #b3ecff, #5173fa);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+form {
+    font-size: medium;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+input {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin: 5px;
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#message {
+    padding: 10px;
+    position: relative;
+    top: -50px;
+    display: none;
+    border-radius: 5px;
+}

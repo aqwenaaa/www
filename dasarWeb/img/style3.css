@@ -1,0 +1,32 @@
+body {
+    margin: 0; /* Reset default margins */
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;         /* Enable flexbox layout */
+    gap: 20px;            /* Space between elements */
+  }
+  
+  .sidebar {
+    flex: 1;              /* Sidebars take equal width */
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  .sidebar-one {
+    background-image: url("path/to/your/image1.jpg"); /* Replace with your image path */
+    background-size: cover;       /* Cover the entire sidebar */
+    background-position: center;  /* Center the image */
+    color: white;              /* Text color for contrast */ 
+  }
+  
+  .sidebar-two {
+    background-color: #e0e0e0;  /* Slightly darker gray */
+  }
+  
+  .content {
+    flex: 2;              /* Content takes up twice the width of a sidebar */
+    padding: 20px;
+    background-color: #fff;   /* White background */
+  }
